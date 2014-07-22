@@ -3,161 +3,149 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation</title>
+    <title>Kenya Paediatric Association</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
-    <script src="bower_components/modernizr/modernizr.js"></script>
+    <script src="js/modernizr.js"></script>
   </head>
   <body>
+  <div id="topBar">
     <div class="row">
-      <div class="large-12 columns">
-        <h1>Welcome to Foundation</h1>
+      <div class="large-4 small-12 columns logo">
+       <img src="img/logo.png">
+      </div>
+      <div class="large-7 columns menu">
+       <ul>
+         <li class="active"><a href="index.html">Home</a></li>
+         <li><a href="about.html">About</a></li>
+         <li><a href="benefits.html">Member Benefits</a></li>
+         <li><a href="">Team</a></li>
+         <li><a href="projects.html">Projects</a></li>
+         <li><a href="contact.html">Contacts</a></li>
+       </ul>
       </div>
     </div>
-    
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="panel">
-          <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-          <p>Once you've exhausted the fun in this document, you should check out:</p>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-          <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-        </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>        
-          </div>
-        </div>
-      </div>
+  </div>
+  <!--Banner-->
+  <div id="banner">
+<div class="row">
+    <ul class="example-orbit" data-orbit data-options="animation:slide;
+                  pause_on_hover:true;
+                  animation_speed:500;
+                  navigation_arrows:true;
+                   slide_number: false;
+                  bullets:false;">
+  <li>
+  <a href="">
+    <img src="img/slide1.jpg" alt="slide 1" />
+    <div class="orbit-caption">
+      <h2>ICTP</h2>
+      <p>Aug 24th - 27th Nairobi, Kenya.</p>
     </div>
-
+    </a>
+  </li>
+  <li>
+   <a href="">
+    <img src="img/slide2.jpg" alt="slide 2" />
+    <div class="orbit-caption">
+      <h2>ICTP</h2>
+      <p>Aug 24th - 27th Nairobi, Kenya.</p>
+    </div>
+    </a>
+  </li>
+  <li>
+   <a href="">
+    <img src="img/slide3.jpg" alt="slide 3" />
+    <div class="orbit-caption">
+      <h2>ICTP</h2>
+      <p>Aug 24th - 27th Nairobi, Kenya.</p>
+    </div>
+    </a>
+  </li>
+  
+</ul>
+</div>
+  </div>
+  <!--Main content-->
+  <div id="mainContent">
     <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
-
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="callout panel">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
+    <!--video-->
+      <div class="large-5 columns video">
         
-        <hr />
-                
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-12.columns" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <div class="row collapse">
-                <label>Input Label</label>
-                <div class="small-9 columns">
-                  <input type="text" placeholder="small-9.columns" />
-                </div>
-                <div class="small-3 columns">
-                  <span class="postfix">.com</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Select Box</label>
-              <select>
-                <option value="husker">Husker</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-6 medium-6 columns">
-              <label>Choose Your Favorite</label>
-              <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-            </div>
-            <div class="large-6 medium-6 columns">
-              <label>Check these out</label>
-              <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-              <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Textarea Label</label>
-              <textarea placeholder="small-12.columns"></textarea>
-            </div>
-          </div>
-        </form>
-      </div>     
-
-      <div class="large-4 medium-4 columns">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="small button">Simple Button</a><br/>
-        <a href="#" class="small radius button">Radius Button</a><br/>
-        <a href="#" class="small round button">Round Button</a><br/>            
-        <a href="#" class="medium success button">Success Btn</a><br/>
-        <a href="#" class="medium alert button">Alert Btn</a><br/>
-        <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-        <div class="panel">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Checkout the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
-        </div>
+      </div>
+      <!--events-->
+      <div class="large-3 columns events">
+        <h3>Events</h3>
+        <ul>
+          <li><a href="">ICTP Aug 24th - 27th Nairobi</a></li>
+          <li><a href="">Running for survival</a></li>
+          <li><a href="">Running for survival</a></li>
+          <li><a href="">Running for survival</a></li>
+        </ul>
+      </div>
+      <!--downloads-->
+      <div class="large-4 columns downloads">
+        <h3>Downloads</h3>
+        <ul>
+          <li><a target="_blank" href="http://kenyapaediatric.org/KPA%20PUBLICATIONS/ASC%202013%20PROGRAM%20DRAFT.pdf">Tropical Paediatrics and the MDGs: 
+Where are we?</a></li>
+          <li><a target="_blank" href="http://kenyapaediatric.org/KPA%20PUBLICATIONS/KPA%20ASC%202013%20Brochure%202.pdf">ASC 2013 PROGRAM</a></li>
+          <li><a target="_blank" href="http://kenyapaediatric.org/DOCS/2012%20KPA%20capacity%20%20statement.pdf">Annual Scientific Conference Brochure</a></li>
+        </ul>
       </div>
     </div>
-
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <!--grey bg-->
+  <div id="bg">
+    <div class="row">
+      <div class="large-6 columns upcoming">
+        <div class="img"></div>
+        <div class="details">
+          <p> The International Congress of Tropical Paediatrics <br/>
+              <span>24th - 27th August 2014</span> Nairobi</p>
+        </div>
+      </div>
+      <div class="large-2 columns social">
+        <a href="" class="fb"></a>
+         <a href="" class="tw"></a>
+      </div>
+      <div class="large-4 columns news">
+        <p>Subscribe to our newsletter</p>
+        <form>
+          <label>Your Email</label>
+          <div class="row collapse">
+          <div class="small-10 columns">
+          <input type="text" name="email" class="radius">
+          </div>
+          <div class="small-2 columns">
+          <input type="submit" value="" class="button postfix">
+        </div>
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!--affiliations-->
+    <div class="row affiliations">
+    <h3>Affiliations</h3>
+      <ul>
+        <li><img src="img/affiliations/harambee.png"></li>
+        <li><img src="img/affiliations/pace.png"></li>
+        <li><img src="img/affiliations/ivac.png"></li>
+        <li><img src="img/affiliations/kma.png"></li>
+        <li><img src="img/affiliations/rcs.png"></li>
+        <li><img src="img/affiliations/uon.png"></li>
+      </ul>
+    </div>
+  </div>
+  <!--footer-->
+  <div id="footer">
+    <div class="row">
+      <p>
+        Copyright &copy; 2013 KENYA PAEDIATRIC ASSOCIATION. All rights reserved.
+      </p>
+    </div>
+  </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/foundation.min.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>

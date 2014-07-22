@@ -77,9 +77,14 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
     background: url(../img/bg.png);
+    border-top: solid 10px #0c53a3;
+
 }
+
 $body-font-family: "Open Sans","Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+
 #topBar {
+    margin-top: 15px;
     .logo { 
         padding: 10px 0; 
         
@@ -119,11 +124,17 @@ $body-font-family: "Open Sans","Helvetica Neue", "Helvetica", Helvetica, Arial, 
 
 /**banner**/
 #banner {
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 2px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC; 
+    border-right: 1px solid #CCCCCC;
+    margin-bottom: 15px;
     
 }
 /**mainContent**/
 #mainContent {
     padding: 12px 0 0 0;
+    
     
     .video{
 		 height: 200px;
@@ -390,7 +401,21 @@ input, textarea {
     }   
 }
 
+.paragraph{
+   line-height: 3.6;
+}
 
+.accordion{
+    border: 1px solid #CCCCCC;
+    
+}
 
-
-
+.accordion dd > a {
+    border-bottom: 1px solid #CCCCCC;  
+    background: #ffffff;
+    color: #222222;
+    padding: 8px;
+    display: block;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+}

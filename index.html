@@ -7,87 +7,139 @@
     <link rel="stylesheet" href="stylesheets/app.css" />
     <script src="js/modernizr.js"></script>
   </head>
-  <body>
-    <div class="row" style="height: 70px; ">
+  <body id="body">
+    <div class="row" style="height: 70px; margin-top: 21px;">
       <div class="large-4 small-6 columns logo">
        <img src="img/logo.png">
       </div>
-      <div class="large-5 columns menu">
-       <p>For additional information call: +254 (0)20 123 4567</p>
+      <div class="large-6 columns menu">
+       <p class="paragraph">For additional information call: +254 (0)20 123 4567</p>
        </div>
-       <div class="large-3 small-2 columns social">
+       <div class="large-2 small-2 columns social">
         <a href="" class="fb"></a>
          <a href="" class="tw"></a>
       </div>
     </div>
-    <img src="img/horizontal-bar.png">
-   <div class="row">
-    <div class="large-12 columns">
-      <div class="topbar">
-        <nav class="top-bar">
-        <section class="top-bar-section">
-           <ul>
-             <li class="active"><a href="index.html">Home</a></li>
-             <li><a href="about.html">About</a></li>
-             <li class="divider"></li>
-             <li><a href="benefits.html">Member Benefits</a></li>
-             <li class="divider"></li>
-             <li><a href="">Team</a></li>
-             <li class="divider"></li>
-             <li><a href="projects.html">Projects</a></li>
-             <li class="divider"></li>
-             <li><a href="contact.html">Contacts</a></li>
-           </ul>
-        <!-- Right Nav Section -->
-      </section>
-      </nav>
+    <!-- nav bar -->
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="topbar">
+          <nav class="top-bar">
+          <section class="top-bar-section">
+             <ul>
+               <li class="active"><a href="index.html">Home</a></li>
+               <li><a href="about.html">About</a></li>
+               <li class="divider"></li>
+               <li><a href="benefits.html">Member Benefits</a></li>
+               <li class="divider"></li>
+               <li><a href="">Team</a></li>
+               <li class="divider"></li>
+               <li><a href="projects.html">Projects</a></li>
+               <li class="divider"></li>
+               <li><a href="contact.html">Contacts</a></li>
+             </ul>
+          <!-- Right Nav Section -->
+        </section>
+        </nav>
+      </div>
     </div>
-  </div>
+    <!-- nav bar ends -->
 </div>
   <!--Banner-->
  
-  <div id="banner">
-  <div class="row">
-    <ul class="example-orbit" data-orbit data-options="animation:slide;
-                  pause_on_hover:true;
-                  animation_speed:500;
-                  navigation_arrows:true;
-                   slide_number: false;
-                  bullets:false;">
-  <li>
-  <a href="">
-    <img src="img/slide1.jpg" alt="slide 1" />
-    <div class="orbit-caption">
-      <h2>ICTP</h2>
-      <p>Aug 24th - 27th Nairobi, Kenya.</p>
-    </div>
-    </a>
-  </li>
-  <li>
-   <a href="">
-    <img src="img/slide2.jpg" alt="slide 2" />
-    <div class="orbit-caption">
-      <h2>ICTP</h2>
-      <p>Aug 24th - 27th Nairobi, Kenya.</p>
-    </div>
-    </a>
-  </li>
-  <li>
-   <a href="">
-    <img src="img/slide3.jpg" alt="slide 3" />
-    <div class="orbit-caption">
-      <h2>ICTP</h2>
-      <p>Aug 24th - 27th Nairobi, Kenya.</p>
-    </div>
-    </a>
-  </li>
   
-</ul>
-</div>
-  </div>
-  <!--Main content-->
-  <div id="mainContent">
     <div class="row">
+      <div id="banner">
+          <ul class="example-orbit" data-orbit data-options="animation:slide;
+                        pause_on_hover:true;
+                        animation_speed:500;
+                        navigation_arrows:true;
+                         slide_number: false;
+                        bullets:false;">
+            <li>
+              <a href="">
+                  <img src="img/slide1.jpg" alt="slide 1" />
+                  <div class="orbit-caption">
+                  <h2>ICTP</h2>
+                  <p>Aug 24th - 27th Nairobi, Kenya.</p>
+                  </div>
+              </a>
+            </li>
+            <li>
+              <a href="">
+              <img src="img/slide2.jpg" alt="slide 2" />
+              <div class="orbit-caption">
+                <h2>ICTP</h2>
+                <p>Aug 24th - 27th Nairobi, Kenya.</p>
+              </div>
+              </a>
+            </li>
+            <li>
+             <a href="">
+              <img src="img/slide3.jpg" alt="slide 3" />
+              <div class="orbit-caption">
+                <h2>ICTP</h2>
+                <p>Aug 24th - 27th Nairobi, Kenya.</p>
+              </div>
+              </a>
+            </li>
+        
+      </ul>
+    </div>
+    </div>
+  <!--Main content-->
+    <div class="row">
+    <div id="mainContent">
+    <p>
+      <h1 style="padding-left: 20px;">Welcome To Kenya Peadritic Association</h1>
+    </p>
+    <div class="row">
+    <div class="large-4 columns small-4 columns"> 
+      <p style="padding-left: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p>
+      </div>
+      <div class="large-4 columns">
+          <dl class="accordion" data-accordion>
+              <dd class="accordion-navigation">
+                <a href="#panel1">Mission & Vision</a>
+                <div id="panel1" class="content active">
+                  <dl class="tabs" data-tab>
+                    <dd class="active"><a href="#panel2-1"></a></dd>
+          </dl>
+                  <div class="tabs-content">
+                    <div class="content active" id="panel2-1">
+                      <p>First panel content goes here...</p>
+                    </div>
+                    <div class="content" id="panel2-2">
+                      <p>Second panel content goes here...</p>
+                    </div>
+                    <div class="content" id="panel2-3">
+                      <p>Third panel content goes here...</p>
+                    </div>
+                    <div class="content" id="panel2-4">
+                      <p>Fourth panel content goes here...</p>
+                    </div>
+                  </div>
+                </div>
+              </dd>
+              <dd class="accordion-navigation">
+                <a href="#panel2">Our Philosophy</a>
+                <div id="panel2" class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+                </div>
+              </dd>
+              <dd class="accordion-navigation">
+                <a href="#panel3">Services we offer/Downloads</a>
+                <div id="panel3" class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip e
+                </div>
+              </dd>
+          </dl>
+    </div>
+    </div>
+  
     <!--video-->
       <div class="large-5 columns video">
         

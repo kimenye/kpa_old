@@ -454,7 +454,7 @@ input, textarea {
 
     .social {
         float: left;
-        margin: 0px 3ggpx;
+        margin: 0px 3px;
     }
 
 }
@@ -464,3 +464,43 @@ input, textarea {
         color: #006699;
     }
 }
+
+.content {
+    margin-top: 25px;
+
+}
+
+.eventdate {
+    position: absolute;
+    bottom: 0;
+    background: #006699;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    }
+
+.month {
+        display: block;
+        text-align: center;
+        margin-bottom: 0px;
+}
+
+.day {
+        display: block;
+        text-align: center;
+        margin-bottom: 0px;
+}
+
+
+.bg {
+        background: #669999;
+        position: relative;
+    }
+
+
+
+
+
+
+
+

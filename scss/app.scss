@@ -70,6 +70,9 @@
 
 $kpa-blue: #0c53a3;
 
+
+
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Open Sans";
 }
@@ -134,12 +137,19 @@ $body-font-family: "Open Sans","Helvetica Neue", "Helvetica", Helvetica, Arial, 
 /**mainContent**/
 #mainContent {
     padding: 12px 0 0 0;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 2px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC; 
+    border-right: 1px solid #CCCCCC;
+    margin-bottom: 15px;
     
+
     
     .video{
 		 height: 200px;
         background: #072e7c;
         margin: 20px 0;
+        color: #999999;
     }
 
     .events, .downloads {
@@ -240,7 +250,7 @@ $body-font-family: "Open Sans","Helvetica Neue", "Helvetica", Helvetica, Arial, 
         height: 28px;
         background: url('../img/fb.png');
         float: right;
-        margin: 45px 10px;
+        margin: 0px 5px;
         &:hover{
            background-position: 0px -28px;
             @include transition(.5s);
@@ -382,7 +392,7 @@ $body-font-family: "Open Sans","Helvetica Neue", "Helvetica", Helvetica, Arial, 
 }
 
 input, textarea {
-    border-radius: 5px;
+
 }
 
 .get-in-touch {
@@ -413,9 +423,47 @@ input, textarea {
 .accordion dd > a {
     border-bottom: 1px solid #CCCCCC;  
     background: #ffffff;
-    color: #222222;
+    color: #999999;
     padding: 8px;
     display: block;
     font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 1rem;
+}
+.fa{
+    color: #3399cc;
+}
+
+.button {
+    background: #006699;
+}
+
+.mailing{
+    padding-right: 10px;
+    margin-top: -20px;
+    h3 {
+        color: #006699;
+        border-bottom: 1px solid #CCCCCC;
+        padding-bottom: 4px;
+
+
+    }
+    .button-postfix{
+        padding-left: 20px;
+    }
+
+    .button {
+        padding-left: 20px;
+    }
+
+    .social {
+        float: left;
+        margin: 0px 3px;
+    }
+
+}
+.news {
+    border-bottom: 1px solid #CCCCCC;
+    h3 {
+        color: #006699;
+    }
 }

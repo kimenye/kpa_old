@@ -6,6 +6,7 @@
     <title>Kenya Paediatric Association</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
     <script src="js/modernizr.js"></script>
+    <link rel="stylesheet" href="stylesheets/font-awesome-4.1.0/css/font-awesome.min.css">
   </head>
   <body id="body">
     <div class="row" style="height: 70px; margin-top: 21px;">
@@ -89,57 +90,105 @@
     </div>
   <!--Main content-->
     <div class="row">
-    <div id="mainContent">
+    <div id="mainContent" style="color: #999999;">
     <p>
-      <h1 style="padding-left: 20px;">Welcome To Kenya Peadritic Association</h1>
+      <h2 style="padding-left: 20px;">Welcome To Kenya Peadritic Association</h2>
     </p>
     <div class="row">
     <div class="large-4 columns small-4 columns"> 
-      <p style="padding-left: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      <p style="padding-left: 20px; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
       consequat.</p>
       </div>
-      <div class="large-4 columns">
+      <div class="large-4 columns small-4 columns">
           <dl class="accordion" data-accordion>
               <dd class="accordion-navigation">
-                <a href="#panel1">Mission & Vision</a>
+                  <a href="#panel1">
+                  <span>Mission & Vision</span>
+                  <i class="fa fa-plus right"></i>
+                </a>
                 <div id="panel1" class="content active">
-                  <dl class="tabs" data-tab>
-                    <dd class="active"><a href="#panel2-1"></a></dd>
-          </dl>
-                  <div class="tabs-content">
-                    <div class="content active" id="panel2-1">
-                      <p>First panel content goes here...</p>
-                    </div>
-                    <div class="content" id="panel2-2">
-                      <p>Second panel content goes here...</p>
-                    </div>
-                    <div class="content" id="panel2-3">
-                      <p>Third panel content goes here...</p>
-                    </div>
-                    <div class="content" id="panel2-4">
-                      <p>Fourth panel content goes here...</p>
-                    </div>
+                    <dl class="tabs" data-tab>
+                      <dd class="active"><a href="#panel2-1"></a></dd>
+                </dl>
+                    <div class="tabs-content">
+                      <div class="content active" id="panel2-1">
+                        <p>First panel content goes here...</p>
+                      </div>
+                      <div class="content" id="panel2-2">
+                        <p>Second panel content goes here...</p>
+                      </div>
+                      <div class="content" id="panel2-3">
+                        <p>Third panel content goes here...</p>
+                      </div>
                   </div>
                 </div>
               </dd>
               <dd class="accordion-navigation">
-                <a href="#panel2">Our Philosophy</a>
+                <a href="#panel2">
+                <span>Our philosophy</span>
+                <i class="fa fa-plus right"></i>
+                </a>
                 <div id="panel2" class="content">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
                 </div>
               </dd>
               <dd class="accordion-navigation">
-                <a href="#panel3">Services we offer/Downloads</a>
+                <a href="#panel3">
+                <span>Services We Offer / Downloads</span>
+                <i class="fa fa-plus right"></i>
+                </a>
                 <div id="panel3" class="content">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip e
                 </div>
               </dd>
           </dl>
     </div>
+    <!-- form -->
+    <div class="row">
+    <div class="large-4 columns end small-4 columns">
+      <div class="mailing">
+              <h3>Join our Mailing List</h3>
+              </br>
+              <form>
+                    <div class="row collapse" style="padding-right: 10px;">
+                    <div class="small-8 columns">
+                    <input type="text" placeholder="Enter Email">
+                    </div>
+                    <div class="small-4 columns">
+                    <a href="#" class="button postfix">Submit</a>
+                  </div>
+                  </div>
+                   <div class="social">
+                    <a href="" class="fb"></a>
+                    <a href="" class="tw"></a>
+                </div>     
+              </form>
+        </div>
     </div>
-  
+  </div>
+  </div>
+  </div>
+      <!-- news -->
+        
+    
+  <div class="row">
+   <div class="large-12 columns small-12 columns">
+    <div class="news">
+      <h3>News & Events</h3>
+    </div>
+      </div>
+    </div>
+  <div class="row">
+  <div id="maincontent">
+   <div class="large-3 columns small-3 columns">
+   <img src="img/slide2.jpg">
+   </div>
+  </div>
+  </div>
+    
+
     <!--video-->
       <div class="large-5 columns video">
         
@@ -175,24 +224,8 @@ Where are we?</a></li>
               <span>24th - 27th August 2014</span> Nairobi</p>
         </div>
       </div>
-      <div class="large-2 columns social">
-        <a href="" class="fb"></a>
-         <a href="" class="tw"></a>
-      </div>
-      <div class="large-4 columns news">
-        <p>Subscribe to our newsletter</p>
-        <form>
-          <label>Your Email</label>
-          <div class="row collapse">
-          <div class="small-10 columns">
-          <input type="text" name="email" class="radius">
-          </div>
-          <div class="small-2 columns">
-          <input type="submit" value="" class="button postfix">
-        </div>
-        </div>
-        </form>
-      </div>
+      
+     
     </div>
   </div>
   <!--affiliations-->

@@ -81,6 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
     background: url(../img/bg.png);
     border-top: solid 10px #0c53a3;
+    font-weight: 200;
 
 }
 
@@ -142,6 +143,10 @@ $body-font-family: "Open Sans","Helvetica Neue", "Helvetica", Helvetica, Arial, 
     border-left: 1px solid #CCCCCC; 
     border-right: 1px solid #CCCCCC;
     margin-bottom: 15px;
+    font-weight: 100;
+        h2 {
+            font-weight: 100;
+        }
     
 
     
@@ -243,14 +248,14 @@ $body-font-family: "Open Sans","Helvetica Neue", "Helvetica", Helvetica, Arial, 
     }
 }
 .social {
-    /*background: url('../img/separator.png') left no-repeat, url('../img/separator.png') right no-repeat;*/
-    /*height: 120px;*/
     .fb, .tw {
         width: 29px;
         height: 28px;
         background: url('../img/fb.png');
         float: right;
         margin: 0px 5px;
+        padding-top: 15px;
+
         &:hover{
            background-position: 0px -28px;
             @include transition(.5s);
@@ -265,12 +270,13 @@ $body-font-family: "Open Sans","Helvetica Neue", "Helvetica", Helvetica, Arial, 
 }
 /*footer*/
 #footer {
-    background: #000;
-    color: #fff;
+    background: #fff;
+    color: #999999;
     p{ 
         font-size: 0.75rem;
         margin: 5px 0 0 0;
         padding: 10px 0;
+        font-weight: 100;
    }
 }
 
@@ -323,6 +329,7 @@ $body-font-family: "Open Sans","Helvetica Neue", "Helvetica", Helvetica, Arial, 
    position: absolute;
    bottom: -10px;
     margin-left: 20px;
+    font-weight: 100;
         p {
         font-weight: 400;
     }
@@ -392,7 +399,7 @@ $body-font-family: "Open Sans","Helvetica Neue", "Helvetica", Helvetica, Arial, 
 }
 
 input, textarea {
-
+    font-weight: 100;
 }
 
 .get-in-touch {
@@ -413,6 +420,8 @@ input, textarea {
 
 .paragraph{
    line-height: 3.6;
+   font-weight: 100;
+   float: right;
 }
 
 .accordion{
@@ -428,6 +437,7 @@ input, textarea {
     display: block;
     font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 1rem;
+    font-weight: 100;
 }
 .fa{
     color: #3399cc;
@@ -444,6 +454,7 @@ input, textarea {
         color: #006699;
         border-bottom: 1px solid #CCCCCC;
         padding-bottom: 4px;
+        font-weight: 100;
 
 
     }
@@ -460,13 +471,16 @@ input, textarea {
 }
 .news {
     border-bottom: 1px solid #CCCCCC;
+    font-weight: 100;
     h3 {
         color: #006699;
+        font-weight: 100;
     }
 }
 
 .content {
     margin-top: 25px;
+    font-weight: 100;
 
 }
 
@@ -475,32 +489,76 @@ input, textarea {
     bottom: 0;
     background: #006699;
     color: #fff;
-    width: 50px;
-    height: 50px;
+    width: 65px;
+    height: 60px
     }
 
 .month {
         display: block;
         text-align: center;
         margin-bottom: 0px;
+        font-weight: 100;
 }
 
 .day {
         display: block;
         text-align: center;
-        margin-bottom: 0px;
+        margin-top: 6px;
+        font-weight: 100;
 }
 
 
 .bg {
-        background: #669999;
+        background: #666666;
+        color: #ffffff;
+       text-align: center;
+       font-weight: 100;
+       padding-right: 60px;
+}
+.readmore {
+        background: #006699;
+        color: #ffffff;
+       text-align: center;
+       text-align: right;
+        border-bottom: 5px solid #006699;
+        float: right;
         position: relative;
-    }
+        width: 36%;
+        height: 23px;
+        font-weight: 100;
+        
+}
 
 
+.font {
+    font-weight: 300;
+}
+.text {
+    text-align: center;
+    color: #cccccc;
+    border-bottom: 3px solid #006699;
+    font-weight: 100;
+}
 
+.bottom {
+    border-bottom: 5px solid #006699;
+    margin-top: 30px;
 
+}
 
+.placeholder {
+    font-weight: 100;
+}
 
+.row {
+    font-weight: 100;
+}
 
+.icon {
+    padding-top: 15px;
+}
 
+.contact {
+    padding-left: 0px;
+padding-right: 0px;
+}

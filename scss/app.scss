@@ -125,6 +125,24 @@ $body-font-family: "Open Sans","Helvetica Neue", "Helvetica", Helvetica, Arial, 
     }
 }
 
+.top-banner {
+    height: 70px; 
+    margin: 21px auto;
+
+    .contact {
+        p {
+            font-size: .9em;
+            text-align: right;
+            margin-top: 20px;        
+        }
+    }
+
+    .social.columns {
+        padding: 0px 0px;
+        margin-top: 13px;
+    }
+}
+
 
 /**banner**/
 #banner {
@@ -523,9 +541,11 @@ input, textarea {
         border-bottom: 5px solid #006699;
         float: right;
         position: relative;
-        width: 36%;
-        height: 23px;
+        width: 39%;
+        height: 26px;
         font-weight: 100;
+        padding-right: 5px;
+        padding-bottom: 3px;
         
 }
 

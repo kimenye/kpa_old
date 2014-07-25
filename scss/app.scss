@@ -407,7 +407,6 @@ $body-font-family: "Open Sans","Helvetica Neue", "Helvetica", Helvetica, Arial, 
     background: white;
     color: #333333;
     margin-bottom: 1rem;
-    border-top: 1px solid #CCCCCC;
     border-bottom: 1px solid #CCCCCC;
 }
 
@@ -580,5 +579,49 @@ input, textarea {
 
 .contact {
     padding-left: 0px;
-padding-right: 0px;
+    padding-right: 0px;
+}
+
+.circle {
+    margin-top: 35px;
+    width: 300px;
+    height: 300px;
+    border: 3px solid #6699cc;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url(URL) no-repeat;
+}
+
+
+.top-bar2 {
+    background: white;
+    color: #333333;
+    margin-bottom: 1rem;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    border-bottom: solid 1px #cccccc; 
+    margin-bottom: 1rem;
+}
+.about {
+    margin-top: 52px;
+    h2{
+        font-weight: 100;
+        color: #006699;
+    }
+    p {
+        margin-top: -13px;
+        color: #999999;
+        padding-left: 5px; 
+        font-size: 15px;
+    }
+    .afya {
+
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 40px; 
+    }
+    ul {
+        color: #999999;
+        font-size: 15px;
+}
 }

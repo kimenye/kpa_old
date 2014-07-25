@@ -606,11 +606,11 @@ input, textarea {
 .about {
     margin-top: 52px;
     h2{
-        font-weight: 100;
+        font-weight: 200;
         color: #006699;
     }
     p {
-        margin-top: -13px;
+        margin-top: 13px;
         color: #999999;
         padding-left: 5px; 
         font-size: 15px;
@@ -623,5 +623,17 @@ input, textarea {
     ul {
         color: #999999;
         font-size: 15px;
+        font-weight: 200;
+
 }
+    li {
+        color: #006699;
+    }
+}
+
+.download {
+    padding-left: 85px;
+    font-weight: 200;
+    margin-top: 8px;
+
 }

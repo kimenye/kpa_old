@@ -362,15 +362,20 @@ $body-font-family: "Open Sans","Helvetica Neue", "Helvetica", Helvetica, Arial, 
 }
 
 .map {
+    margin-top: 25px;
     height: 200px;
     background-image: url('../img/map.png');
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 2px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC; 
+    border-right: 1px solid #CCCCCC;
 }
 
-.contact-form {
+/*.contact-form {
     margin: 0 auto;
     margin-bottom: 20px;
     text-align: center;
-}
+}*/
 
 .button {
     background : #ff6600;
@@ -408,6 +413,7 @@ $body-font-family: "Open Sans","Helvetica Neue", "Helvetica", Helvetica, Arial, 
     color: #333333;
     margin-bottom: 1rem;
     border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
 }
 
 .lbl-content {
@@ -419,10 +425,20 @@ input, textarea {
     font-weight: 100;
 }
 
-.get-in-touch {
-    font-size: 1.5rem;
-    margin-top: 15px;
-    margin-bottom: 15px;
+.getintouch {
+
+    h3 {
+        color: #006699;
+        border-bottom: 1px solid #CCCCCC;
+        padding-bottom: 4px;
+        font-weight: 100;
+    }
+    p {
+        font-weight: 200;
+        color: #cccccc;
+        font-size: smaller;
+}
+
 }
 
 .tabs { 
@@ -483,6 +499,10 @@ input, textarea {
     .social {
         float: left;
         margin: 0px 3px;
+    }
+    p {
+        color: #cccccc;
+        font-weight: 200;
     }
 
 }
@@ -592,6 +612,30 @@ input, textarea {
     -moz-border-radius: 150px;
     background: url(URL) no-repeat;
 }
+.circle2 {
+    position: absolute;
+    left: 36px;
+    top: -71px;
+    margin-top: 35px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #cccccc;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url(URL) no-repeat;
+}
+
+.circle3{
+    margin-top: 35px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #cccccc;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url(URL) no-repeat;
+}
 
 
 .top-bar2 {
@@ -635,5 +679,40 @@ input, textarea {
     padding-left: 85px;
     font-weight: 200;
     margin-top: 8px;
+
+}
+
+.box {
+
+    background: #eff1f2;
+    position: relative;
+    width: 230px;
+    height: 290px;
+    margin-top: 35px;
+}
+
+.words {
+
+    h3 {/*
+     margin-top: 200px; 
+    padding-top: 180px;*/
+    color: #ffffff;
+}
+
+}
+
+.info {
+    h3 {
+        color: #006699;
+        border-bottom: 1px solid #CCCCCC;
+        padding-bottom: 4px;
+        font-weight: 100;
+        margin-bottom: 35px;
+    }
+    p {
+        font-weight: 200;
+        color: #cccccc;
+        font-size: smaller;
+}
 
 }

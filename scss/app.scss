@@ -89,6 +89,7 @@ $body-font-family: "Open Sans","Helvetica Neue", "Helvetica", Helvetica, Arial, 
 
 #topBar {
     margin-top: 15px;
+    margin-bottom: 25px;
     .logo { 
         padding: 10px 0; 
         
@@ -411,7 +412,7 @@ $body-font-family: "Open Sans","Helvetica Neue", "Helvetica", Helvetica, Arial, 
 .top-bar {
     background: white;
     color: #333333;
-    margin-bottom: 1rem;
+    margin-bottom: 30px;
     border-bottom: 1px solid #CCCCCC;
     border-top: 1px solid #CCCCCC;
 }
@@ -584,6 +585,11 @@ input, textarea {
     margin-top: 30px;
 
 }
+.bottom2 {
+    border-bottom: 1px solid #cccccc;
+    margin-top: 30px;
+
+}
 
 .placeholder {
     font-weight: 100;
@@ -626,6 +632,20 @@ input, textarea {
     background: url(URL) no-repeat;
 }
 
+.ceocircle2 {
+    position: absolute;
+    left: 36px;
+    top: -71px;
+    margin-top: 35px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #006699;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url(URL) no-repeat;
+}
+
 .circle3{
     margin-top: 35px;
     width: 150px;
@@ -635,6 +655,10 @@ input, textarea {
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
     background: url(URL) no-repeat;
+
+    #ceo {
+       border: 2px solid #6699cc; 
+    }
 }
 
 
@@ -689,16 +713,59 @@ input, textarea {
     width: 230px;
     height: 290px;
     margin-top: 35px;
+    margin-bottom: 0px;
 }
+
+    .texts {
+        h6 {
+            color: #999999;
+            border-bottom: 1px solid #ffffff;
+            padding-bottom: 5px;
+        }
+        padding-top: 123px;
+        font-weight: 200;
+        color: #999999;
+        text-align: center;
+    }
+.ceobox {
+
+    background: #006699;
+    position: relative;
+    width: 230px;
+    height: 290px;
+    margin-top: 35px;
+    margin-bottom: 0px;
+}
+
+.ceotexts {
+        padding-top: 123px;
+        font-weight: 200;
+        color: #ffffff;
+        text-align: center;
+
+        h6 {
+            color: #ffffff;
+            border-bottom: 1px solid #ffffff;
+            padding-bottom: 5px;
+        }
+    }
 
 .words {
 
-    h3 {/*
+    h5 {/*
      margin-top: 200px; 
     padding-top: 180px;*/
-    color: #ffffff;
-}
-
+    color: #999999;
+    text-align: center;
+    padding-right: 60px;
+    }
+    p {
+        font-weight: 200;
+        color:#cccccc;
+        font-size: smaller;
+        text-align: center;
+        padding-right: 60px;
+    }
 }
 
 .info {
@@ -715,4 +782,41 @@ input, textarea {
         font-size: smaller;
 }
 
+}
+.ceo {
+
+
+    background: #006699;
+    position: relative;
+    width: 230px;
+    height: 290px;
+    margin-top: 35px;
+}
+.ceowords {
+
+    h5 {/*
+     margin-top: 200px; 
+    padding-top: 180px;*/
+    color: #006699;
+    text-align: center;
+    padding-right: 60px;
+    }
+    p {
+        font-weight: 200;
+        color:#006699;
+        font-size: smaller;
+        text-align: center;
+        padding-right: 60px;
+    }
+}
+.ceocircle {
+
+    margin-top: 35px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #6699cc;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url(URL) no-repeat;
 }
